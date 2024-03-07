@@ -80,7 +80,7 @@ for the second file (odom_to_base.yaml)
 world_frame: odom
 ```
 
-2- launch folder :
+2- launch file :
 ``` xml
   <node pkg="robot_localization" type="ekf_localization_node" name="map_to_odom"
         clear_params="true" output="screen">
